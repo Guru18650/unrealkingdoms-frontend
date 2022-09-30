@@ -23,7 +23,7 @@ const LoginForm = ({
         <TextField
           name="email"
           required
-          label="email"
+          label="Email adress"
           value={user.email}
           onChange={onChange}
           error ={errors ? false : true}
@@ -33,7 +33,7 @@ const LoginForm = ({
           type={type}
           required
           name="password"
-          label="password"
+          label="Password"
           value={user.password}
           onChange={onPwChange}
           error ={errors ? false : true}

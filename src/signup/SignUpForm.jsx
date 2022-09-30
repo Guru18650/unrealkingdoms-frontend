@@ -26,7 +26,7 @@ const SignUpForm = ({
         <TextField
           name="username"
           required
-          label="user name"
+          label="Username"
           value={user.username}
           onChange={onChange}
           error ={errors ? false : true}
@@ -36,7 +36,7 @@ const SignUpForm = ({
         <TextField
           name="email"
           required
-          label="email"
+          label="Email adress"
           value={user.email}
           onChange={onChange}
           error ={errors ? false : true}
@@ -46,7 +46,7 @@ const SignUpForm = ({
           type={type}
           required
           name="password"
-          label="password"
+          label="Password"
           value={user.password}
           onChange={onPwChange}
           error ={errors ? false : true}
@@ -69,7 +69,7 @@ const SignUpForm = ({
           type={type}
           name="pwconfirm"
           required
-          label="confirm password"
+          label="Confirm password"
           value={user.pwconfirm}
           onChange={onChange}
           error ={errors ? false : true}
